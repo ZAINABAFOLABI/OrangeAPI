@@ -1,0 +1,8 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@OrangeAPI_HostAddress = http://localhost:5066
+
+GET {{OrangeAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+
+###
